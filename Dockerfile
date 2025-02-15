@@ -42,7 +42,7 @@ COPY --from=builder /app/public ./public
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 
-RUN touch visitCount.txt \
+RUN touch visitCount.txt &&\
     chown nextjs:nodejs visitCount.txt
 
 USER nextjs
