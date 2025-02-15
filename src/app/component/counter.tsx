@@ -8,7 +8,7 @@ const Counter = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const resp = await fetch("/api/counter");
+      const resp = await fetch("/api/counter", { cache: "no-store" });
       const data: VisitCounter = await resp.json();
       setVisitCount(data.visitCount);
     };
