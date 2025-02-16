@@ -1,21 +1,14 @@
 import Counter from "./component/counter";
+import LightBulb from "./component/lightbulb";
+import CustomNavbar from "./component/navbar";
 
 export default function Home() {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        height: "100vh",
-      }}
-    >
-      <h1>Adrian Germeck</h1>
-      <h4>Website is under construction</h4>
-      <p>Only available at daytime</p>
-      <p>Number of people visited</p>
-      <Counter></Counter>
-    </div>
+    <>
+      <CustomNavbar></CustomNavbar>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <LightBulb></LightBulb>
+      </div>
+    </>
   );
 }
