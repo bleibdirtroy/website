@@ -1,14 +1,11 @@
-import Counter from "./component/counter";
-import LightBulb from "./component/lightbulb";
-import CustomNavbar from "./component/navbar";
+import CustomNavbar from "./components/navbar/navbar";
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <>
       <CustomNavbar></CustomNavbar>
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-        <LightBulb></LightBulb>
-      </div>
+      <Image src="/me.jpg" alt="me" width={500} height={500} quality={85} />
     </>
   );
 }
