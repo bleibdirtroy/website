@@ -1,5 +1,5 @@
 services:
-  web:
+  website:
     build:
       context: .
       dockerfile: Dockerfile
