@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Adrian Germeck",
+  "jobTitle": "Software Engineer",
+  "description": "M.Sc. Software Engineer spezialisiert auf moderne Webentwicklung",
+  "url": "https://adrian-germeck.com",
+  "sameAs": [
+    "https://linkedin.com/in/adrian-germeck",
+    "https://github.com/adrian-germeck"
+  ],
+  "knowsAbout": [
+    "React",
+    "Next.js",
+    "TypeScript",
+    "JavaScript",
+    "Node.js",
+    "Web Development",
+    "Software Engineering"
+  ],
+  "alumniOf": {
+    "@type": "Organization",
+    "name": "Universität"
+  }
+}

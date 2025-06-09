@@ -1,4 +1,17 @@
 import styles from "./datenschutz.module.css";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Datenschutzerklärung",
+  description: "Datenschutzerklärung von Adrian Germeck. Informationen zum Umgang mit personenbezogenen Daten gemäß DSGVO.",
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: '/datenschutz',
+  },
+};
 
 const Datenschutz = () => {
   return (

@@ -1,5 +1,6 @@
 import styles from "./footer.module.css";
 import Link from "next/link";
+import EmailReveal from "../email-reveal/email-reveal";
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
           
           <div className={styles.section}>
             <h4>Kontakt</h4>
-            <p>adrian.germeck@example.com</p>
+            <p><EmailReveal label="E-Mail" /></p>
             <p>+49 (0) 123 456789</p>
           </div>
           
