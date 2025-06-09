@@ -1,0 +1,125 @@
+.projectsSection {
+  padding: 4rem 1rem;
+  max-width: 112rem;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.kanbanBoard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.kanbanColumn {
+  background-color: #f8fafc;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  min-height: 400px;
+}
+
+.kanbanColumnTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #374151;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.stickyNote {
+  background: linear-gradient(45deg, transparent 0%, transparent 12px, currentColor 12px, currentColor 100%);
+  border-radius: 0 8px 8px 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: rotate(-1deg);
+  transition: all 0.3s ease;
+  position: relative;
+  min-height: 180px;
+}
+
+.stickyNote:hover {
+  transform: rotate(0deg) scale(1.02);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.stickyNote:nth-child(even) {
+  transform: rotate(1deg);
+}
+
+.stickyNote:nth-child(even):hover {
+  transform: rotate(0deg) scale(1.02);
+}
+
+.stickyNote.yellow {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.stickyNote.blue {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.stickyNote.green {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.stickyNote.pink {
+  background-color: #fce7f3;
+  color: #be185d;
+}
+
+.stickyNote.purple {
+  background-color: #e0e7ff;
+  color: #5b21b6;
+}
+
+.stickyNote.orange {
+  background-color: #fed7aa;
+  color: #c2410c;
+}
+
+.stickyNote h4 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: inherit;
+}
+
+.stickyNote p {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  color: inherit;
+  opacity: 0.8;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+
+.tag {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: inherit;
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1px solid currentColor;
+  opacity: 0.9;
+}
