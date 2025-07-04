@@ -79,7 +79,7 @@ const Datenschutz = () => {
           <h3>Oracle Cloud Infrastructure</h3>
           <p>
             Diese Website wird auf einem Virtual Private Server (VPS) der Oracle Corporation 
-            im Rahmen des "Always Free Tier" gehostet. Der Server befindet sich im Oracle 
+            im Rahmen des &quot;Always Free Tier&quot; gehostet. Der Server befindet sich im Oracle 
             Rechenzentrum in Frankfurt, Deutschland. Die personenbezogenen Daten, die auf 
             dieser Website erfasst werden, werden auf den Servern von Oracle gespeichert.
           </p>
@@ -204,7 +204,7 @@ const Datenschutz = () => {
           <p>
             Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher 
             Inhalte eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie 
-            daran, dass die Adresszeile des Browsers von "http://" auf "https://" wechselt und an 
+            daran, dass die Adresszeile des Browsers von &quot;http://&quot; auf &quot;https://&quot; wechselt und an 
             dem Schloss-Symbol in Ihrer Browserzeile.
           </p>
           <p>
