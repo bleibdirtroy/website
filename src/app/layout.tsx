@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import {  Noto_Sans } from "next/font/google";
+import { Noto_Sans } from "next/font/google";
 import "./globals.css";
 import CustomNavbar from "./components/navbar/navbar";
+import Script from "next/script";
 
 const notoSans = Noto_Sans({
   variable: "--font-noto-sans",
@@ -79,10 +80,17 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#fb923c" />
+
       </head>
       <body className={`${notoSans.variable} antialiased`}>
         <CustomNavbar></CustomNavbar>
         {children}
+        <Script
+          src="https://rybbit.696887.xyz/api/script.js"
+          data-site-id="1"
+          data-session-replay="true"
+          defer
+        />
       </body>
     </html>
   );
