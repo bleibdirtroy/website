@@ -15,7 +15,6 @@ const Footer = () => {
           <div className={styles.section}>
             <h4>Kontakt</h4>
             <p><EmailReveal label="E-Mail" /></p>
-            <p>+49 (0) 123 456789</p>
           </div>
           
           <div className={styles.section}>
