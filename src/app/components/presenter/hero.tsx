@@ -19,6 +19,8 @@ const Hero = () => {
 
   return (
     <section className={styles.heroSection}>
+      <div className={styles.dottedBackground}></div>
+      <div className={styles.gradientOverlay}></div>
       <Image
         className={styles.image}
         src="/me.jpg"

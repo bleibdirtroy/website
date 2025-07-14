@@ -1,0 +1,564 @@
+{
+  "basics": {
+    "name": "Adrian Germeck",
+    "headline": "M.Sc. Software Engineer",
+    "email": "adrian.germeck@mailbox.org",
+    "phone": "01739197345",
+    "location": "Maisacher Str. 69, 82256 Fürstenfeldbruck",
+    "url": {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/adrian-germeck/"
+    },
+    "customFields": [],
+    "picture": {
+      "url": "https://storage.rxresu.me/cm48yec1w2doidbpo5ijt6pgh/pictures/cm48yec1w2doidbpo5ijt6pgh.jpg",
+      "size": 100,
+      "aspectRatio": 1,
+      "borderRadius": 6,
+      "effects": {
+        "hidden": false,
+        "border": true,
+        "grayscale": false
+      }
+    }
+  },
+  "sections": {
+    "summary": {
+      "name": "Zusammenfassung",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "summary",
+      "content": "<p>Als M.Sc. Software Engineer verfüge ich über umfangreiche Erfahrungen in der Entwicklung, Konzeption, Planung und Wartung von Software, die ich sowohl in großen als auch in kleineren Unternehmen erfolgreich umgesetzt habe. Durch meine schnelle Einarbeitung in interne Softwarestrukturen kann ich mit meinem Wissen und meinen Erfahrungen schnell bei kritischen Themen mitreden. Durch mein hobbymäßiges Programmieren und Self-Hosting lerne ich moderne Technologien und Ansätze kennen, um neue und bestehende Prozesse zu optimieren.</p>"
+    },
+    "awards": {
+      "name": "Awards",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "awards",
+      "items": []
+    },
+    "certifications": {
+      "name": "Certifications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "certifications",
+      "items": []
+    },
+    "education": {
+      "name": "Ausbildung",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "education",
+      "items": [
+        {
+          "id": "mw7m8huh4lwgs082o8j6nhpr",
+          "visible": true,
+          "institution": "Hochschule München",
+          "studyType": "Master of Science",
+          "area": "Software Engineering",
+          "score": "",
+          "date": "03.2021 - 03.2024",
+          "summary": "<ul><li><p><strong>Abschlussnote</strong>: 1,4</p></li><li><p><strong>Masterarbeitsnote</strong>: 1,0</p></li><li><p>Masterarbeitsthema: Entwicklung eines Testsystems für Mediaplayer: Analyse und Vergleich des Verhaltens von Playern in verschiedenen Fehlerszenarien</p></li><li><p>Vorlesungen: Datenanalyse, Deep Learning, Cloud Computing, Softwaresicherheit, Qualitätsmanagement, Advanced Software Engineering, Quantensoftwareentwicklung</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "qlkts1qkh04t9zhcrh0suvet",
+          "visible": true,
+          "institution": "TH Rosenheim",
+          "studyType": "Bachelor of Science",
+          "area": "Software Engineering",
+          "score": "",
+          "date": "03.2017 - 03.2021",
+          "summary": "<ul><li><p> <strong>Abschlussnote</strong>: 2,0</p></li><li><p><strong>Bachelorarbeitsnote</strong>: 1,3</p></li><li><p>Bachelorarbeitsthema: Konzeption und Entwicklung einer Internet-of-Things (IoT) Management Plattform für Sensorknoten und intelligente Edge Devices</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "experience": {
+      "name": "Berufserfahrung",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "experience",
+      "items": [
+        {
+          "id": "h7jilqzxw5nk3w5p45hdq1yb",
+          "visible": true,
+          "company": "TARA Systems GmbH",
+          "position": "Software Engineer",
+          "location": "München",
+          "date": "09.2024 - heute",
+          "summary": "<p>Verantwortlich für die Qualitätssicherung mithilfe von Jenkins und GitLab Pipelines, um eine zuverlässige und effiziente Softwareentwicklung zu gewährleisten. Durch die Integration von künstlicher Intelligenz wie OpenAI in Abläufe, ermögliche ich es meinen Kollegen Verständnis und Effizienz zu steigern. Mit einem kleinen Team entwickle ich eine Flutter-Anwendung mit verschiedenen plattformspezifischen Zugriffen.</p>",
+          "url": {
+            "label": "",
+            "href": "https://www.tara-systems.de"
+          }
+        },
+        {
+          "id": "suqnycpttxf6je31aqhbl4zc",
+          "visible": true,
+          "company": "Freelancer",
+          "position": "",
+          "location": "",
+          "date": "11.2020 - 08.2024",
+          "summary": "<p>Als Software-Entwickler und DevOps Spezialist tätig für</p><ul><li><p>Link Protect GmbH: 08.2021 - 08.2024: Full Stack Anwendung, Agil und Kundennah</p></li><li><p>TARA Systems GmbH: 09.2022 - 08.2024: Umstieg der Versionskontrolle, Planung und Qualitätssicherung</p></li><li><p>econix GmbH: 11.2020 - 04.2021 und 08.2023 - 08.2024: Mobile Anwendung für große Nutzerzahl</p></li></ul><p>Zeitmanagement, Finanzplanung und direkter Kundenaustausch standen neben der Arbeit an den Projekten im Mittelpunkt. </p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "hvhfwh2x6liiovmu96nl3xol",
+          "visible": true,
+          "company": "link protect GmbH",
+          "position": "Werkstudent",
+          "location": "Kirchseeon",
+          "date": "10.2019 - 09.2020",
+          "summary": "<p>Entwicklung eines Penetrationtest-Management-Tools, welches zum digitalen Ordnen und Erstellen von Penetrationtest-Dokumenten genutzt wird. Durch Markdown und Latex können benutzerfreundlich Berichte erstellt werden.</p>",
+          "url": {
+            "label": "",
+            "href": "https://www.linkprotect.de"
+          }
+        },
+        {
+          "id": "pxj9y19tmpxqr8wpdw81esed",
+          "visible": true,
+          "company": "Audi AG",
+          "position": "Praktikant",
+          "location": "Neckarsulm",
+          "date": "09.2018 - 03.2019",
+          "summary": "<p>Die agile Softwareentwicklung mit Scrum umfasste die selbstständige Planung und Umsetzung mehrerer Softwareprojekte mithilfe von Oracle Application Express. Dabei wurden Kenntnisse in SQL, PL/SQL, JavaScript, HTML und CSS vertieft, Anforderungen analysiert, wöchentliche Termine mit Fachbereichen abgestimmt, die Projektdokumentation überwacht und verwaltet sowie der Rollout einer neuen Visualisierungsmaske unterstützt.</p>",
+          "url": {
+            "label": "",
+            "href": "https://www.audi.de"
+          }
+        },
+        {
+          "id": "ib342qeuhvg9h7ajqbpivsme",
+          "visible": true,
+          "company": "Extedo GmbH",
+          "position": "Werkstudent",
+          "location": "Ottobrunn",
+          "date": "11.2027 - 08.2018",
+          "summary": "<p>Entwicklung diverser Java-Applikationen zur Automatisierung von Prozessen in Confluence, einschließlich eines Blueprints für Change Control-Seiten und eines Tools für Customer Satisfaction Survey Emails. Zusätzlich wurden Hilfsprogramme für die Automatisierung von Reports erstellt.</p>",
+          "url": {
+            "label": "",
+            "href": "https://www.extedo.com"
+          }
+        }
+      ]
+    },
+    "volunteer": {
+      "name": "Volunteering",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "volunteer",
+      "items": []
+    },
+    "interests": {
+      "name": "Interests",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "interests",
+      "items": []
+    },
+    "languages": {
+      "name": "Sprachen",
+      "columns": 2,
+      "separateLinks": true,
+      "visible": true,
+      "id": "languages",
+      "items": [
+        {
+          "id": "ne8jfqpf2gyh2oprgtqlglxj",
+          "visible": true,
+          "name": "Deutsch",
+          "description": "",
+          "level": 5
+        },
+        {
+          "id": "n82xls4mbbo1lypkhuu4tmhj",
+          "visible": true,
+          "name": "Englisch",
+          "description": "",
+          "level": 4
+        }
+      ]
+    },
+    "profiles": {
+      "name": "Profiles",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "profiles",
+      "items": []
+    },
+    "projects": {
+      "name": "Projekte",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "projects",
+      "items": [
+        {
+          "id": "stn1waojzs01osz6xe0fah6t",
+          "visible": true,
+          "name": "Datenaufbereitung und Clustering",
+          "description": "Projekt in der Vorlesung IT-Infrastrukturen an der Hochschule München",
+          "date": "",
+          "summary": "<p>Um potenzielle Ausfälle bestimmter Geräte in einem Rechenzentrum zu erkennen, wurde eine Analyse großer Datensätze durchgeführt. Im ersten Schritt wurden die Daten aufbereitet und bereinigt. Anschließend wurden die Werte normalisiert und mithilfe von Python Keras gelabelt. Dadurch konnten Prognosen über mögliche zukünftige Ausfälle erstellt und visualisiert werden.</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "qz78dj5nuf98ejxql3y60sfr",
+          "visible": true,
+          "name": "Scan2Cook",
+          "description": "Projekt mit der BSH Hausgeräte GmbH in Zusammenarbeit mit der TH Rosenheim.",
+          "date": "",
+          "summary": "<p>Scan2Cook ist eine Smartphone-App, die dem Nutzer die Arbeit in der Küche erleichtert. Mithilfe von Optischer Zeichenerkennung (OCR) können Sie beispielsweise den Zubereitungshinweis einer Fertigpizza scannen, um Ihren Home Connect Backofen automatisch auf den Zubereitungsprozess (Temperatur, Modus, Zeit) einzustellen</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "kb76os1504u8tyt3bwp6k5a5",
+          "visible": true,
+          "name": "Allin.ai",
+          "description": "Projekt in der Vorlesung IoT an der TH Rosenheim",
+          "date": "",
+          "summary": "<p>Spielkarten werden innerhalb eines Pokerspiels zwischen zwei Spielern fotografiert und von einer Microsoft KI-Schnittstelle (Custom Vision) erkannt. Im Laufe des Spiels werden die Spielkarten immer wieder fotografiert, mithilfe der Microsoft Azure Cloud gelabelt und die jeweilige Gewinnwahrscheinlichkeit für die Spieler berechnet. Diese werden auf einer Weboberfläche angezeigt.</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "publications": {
+      "name": "Publications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "publications",
+      "items": []
+    },
+    "references": {
+      "name": "References",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "references",
+      "items": []
+    },
+    "skills": {
+      "name": "Kenntnisse",
+      "columns": 2,
+      "separateLinks": true,
+      "visible": true,
+      "id": "skills",
+      "items": [
+        {
+          "id": "thyuf3138udgywkbsrtxsdvf",
+          "visible": true,
+          "name": "KI",
+          "description": "",
+          "level": 4,
+          "keywords": [
+            "OpenAI",
+            "Claude",
+            "Mistral",
+            "HuggingFace"
+          ]
+        },
+        {
+          "id": "sxf89nylwrnecm2aqu0zezj1",
+          "visible": true,
+          "name": "TypeScript",
+          "description": "",
+          "level": 4,
+          "keywords": [
+            "Angular",
+            "React",
+            "Nextjs",
+            "Nodejs",
+            "Fastify",
+            "Astro"
+          ]
+        },
+        {
+          "id": "ze30pk2r6jq0nzaqguzycqu4",
+          "visible": true,
+          "name": "Flutter",
+          "description": "",
+          "level": 5,
+          "keywords": [
+            "Android",
+            "iOS",
+            "Dart"
+          ]
+        },
+        {
+          "id": "h0u1mtbf9irxjgfchd4f78ta",
+          "visible": true,
+          "name": "SQL Datenbank",
+          "description": "",
+          "level": 4,
+          "keywords": [
+            "Oracle APEX",
+            "MariaDB",
+            "Postgres",
+            "MySQL"
+          ]
+        },
+        {
+          "id": "l19cw3epq2q4k0yt71x70pju",
+          "visible": true,
+          "name": "Docker",
+          "description": "",
+          "level": 4,
+          "keywords": [
+            "Container",
+            "Virtualisierung",
+            "Kubernetes"
+          ]
+        },
+        {
+          "id": "w9nrczubxouv6gvh2v4g06wf",
+          "visible": true,
+          "name": "Linux",
+          "description": "",
+          "level": 5,
+          "keywords": [
+            "Tools",
+            "Skripte",
+            "Umgang"
+          ]
+        },
+        {
+          "id": "pct0mmthi3s80qlymvyenm8n",
+          "visible": true,
+          "name": "Qualitätskontrolle",
+          "description": "CI/CD",
+          "level": 4,
+          "keywords": [
+            "Jenkins",
+            "GitLab"
+          ]
+        },
+        {
+          "id": "ul12qt5ca495di4dah09ples",
+          "visible": true,
+          "name": "Agile Methoden",
+          "description": "",
+          "level": 4,
+          "keywords": [
+            "Kanban",
+            "Scrum",
+            "Planung",
+            "Sprints",
+            "Management"
+          ]
+        },
+        {
+          "id": "rtmuqnmbf6zlhw19nfs2fquu",
+          "visible": true,
+          "name": "Cloud",
+          "description": "",
+          "level": 3,
+          "keywords": [
+            "AWS",
+            "Google Cloud",
+            "Azure",
+            "Scaleway"
+          ]
+        },
+        {
+          "id": "ic291lcxv27komi3tmcb7imd",
+          "visible": true,
+          "name": "Python",
+          "description": "",
+          "level": 3,
+          "keywords": [
+            "Pandas",
+            "TensorFlow",
+            "Keras"
+          ]
+        },
+        {
+          "id": "z6jldficdsss5ltk0bfq2djh",
+          "visible": true,
+          "name": "Java",
+          "description": "",
+          "level": 3,
+          "keywords": [
+            "Spring Boot",
+            "Atlassian SDK"
+          ]
+        },
+        {
+          "id": "w4cml8ruw7p2fxw3585m9bqc",
+          "visible": true,
+          "name": "Microsoft Office",
+          "description": "",
+          "level": 3,
+          "keywords": [
+            "Word",
+            "Excel",
+            "Powerpoint"
+          ]
+        },
+        {
+          "id": "uvo1qs02k4re64c6zulbrbnt",
+          "visible": true,
+          "name": "Infastructure as Code",
+          "description": "",
+          "level": 2,
+          "keywords": [
+            "Terraform"
+          ]
+        },
+        {
+          "id": "daru6tvg5ip4rs0ue033j6ul",
+          "visible": true,
+          "name": "LaTeX",
+          "description": "",
+          "level": 2,
+          "keywords": []
+        }
+      ]
+    },
+    "custom": {
+      "dtmqli7lww8ie1pg96n1lvu4": {
+        "name": "Freizeit",
+        "columns": 1,
+        "separateLinks": true,
+        "visible": true,
+        "id": "dtmqli7lww8ie1pg96n1lvu4",
+        "items": [
+          {
+            "id": "l8vcg0qkfbybai1umenjou58",
+            "visible": true,
+            "name": "Self-Hosting",
+            "description": "",
+            "date": "",
+            "location": "",
+            "summary": "<p>Vor einigen Jahren habe ich meine Leidenschaft für das selbst Hosten verschiedenster Anwendungen entdeckt. Angefangen hat alles mit einem Raspberry Pi und Pi-hole. Heute betreibe ich einen kleinen Server, auf dem ich verschiedene Anwendungen in Docker Containern hoste. Ich kümmere mich selbst um die Wartung, Updates des Servers sowie um regelmäßige Backups, die Erreichbarkeit von außen und deren Schutz.</p>",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": ""
+            }
+          },
+          {
+            "id": "q8z5gjlgqou3ud81x14bknzo",
+            "visible": true,
+            "name": "Programmieren",
+            "description": "",
+            "date": "",
+            "location": "",
+            "summary": "<p>Neben meinem Studium habe ich mir durch YouTube-Videos neue Frameworks und Technologien beigebracht und diese gerne ausprobiert. Ende 2020 habe ich mein Hobby dann in eine freiberufliche Tätigkeit umgewandelt und während des Studiums für verschiedene Firmen Software entwickelt und sie bei der Technologiewahl beraten. Auch starte ich gerne Projekte und entwickle Konzepte.</p>",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": ""
+            }
+          },
+          {
+            "id": "fodcoka0f2hql1ozxavvt8mg",
+            "visible": true,
+            "name": "Escape Rooms",
+            "description": "",
+            "date": "",
+            "location": "",
+            "summary": "<p>Wenn es die Zeit erlaubt, treffe ich mich gerne mit Freunden, um Escape Rooms zu besuchen. Es macht Spaß, auch außerhalb der digitalen Welt vor Herausforderungen zu stehen und um die Ecke zu denken, um Rätsel zu lösen.</p>",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "template": "gengar",
+    "layout": [
+      [
+        [
+          "profiles",
+          "summary",
+          "experience",
+          "volunteer",
+          "references"
+        ],
+        [
+          "skills",
+          "certifications",
+          "awards",
+          "publications",
+          "languages"
+        ]
+      ],
+      [
+        [
+          "education",
+          "projects",
+          "interests",
+          "custom.dtmqli7lww8ie1pg96n1lvu4"
+        ],
+        []
+      ]
+    ],
+    "css": {
+      "value": "img[src=\"/assets/europass.png\"] {\n    display: none;\n}",
+      "visible": false
+    },
+    "page": {
+      "margin": 14,
+      "format": "a4",
+      "options": {
+        "breakLine": false,
+        "pageNumbers": true
+      }
+    },
+    "theme": {
+      "background": "#ffffff",
+      "text": "#000000",
+      "primary": "#475569"
+    },
+    "typography": {
+      "font": {
+        "family": "Open Sans",
+        "subset": "latin",
+        "variants": [
+          "regular"
+        ],
+        "size": 13
+      },
+      "lineHeight": 1.3,
+      "hideIcons": false,
+      "underlineLinks": true
+    },
+    "notes": ""
+  }
+}

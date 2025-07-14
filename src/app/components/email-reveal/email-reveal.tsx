@@ -13,8 +13,8 @@ const EmailReveal = ({ label = "E-Mail anzeigen" }: { label?: string }) => {
 
   if (isRevealed) {
     return (
-      <a href="mailto:kontakt@adrian-germeck.de" className={styles.emailLink}>
-        kontakt@adrian-germeck.de
+      <a href="mailto:adrian.germeck@mailbox.org" className={styles.emailLink}>
+        adrian.germeck@mailbox.org
       </a>
     );
   }

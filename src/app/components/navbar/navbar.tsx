@@ -22,6 +22,9 @@ const CustomNavbar = () => {
           <NavbarItem className={styles.navbarItem}>
             <Link href={isHomePage ? "#projects" : "/#projects"}>PROJEKTE</Link>
           </NavbarItem>
+          <NavbarItem className={styles.navbarItem}>
+            <Link href="/lebenslauf">LEBENSLAUF</Link>
+          </NavbarItem>
         </NavbarContent>
       </Navbar>
     </>
