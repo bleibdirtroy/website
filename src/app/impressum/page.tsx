@@ -1,4 +1,3 @@
-import styles from "./impressum.module.css";
 import { Metadata } from "next";
 import EmailReveal from "../components/email-reveal/email-reveal";
 import Footer from "../components/footer/footer";

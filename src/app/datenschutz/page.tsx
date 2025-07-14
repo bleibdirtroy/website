@@ -1,4 +1,3 @@
-import styles from "./datenschutz.module.css";
 import { Metadata } from "next";
 import Footer from "../components/footer/footer";
 
@@ -264,7 +263,7 @@ const Datenschutz = () => {
                 Diese Website nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher 
                 Inhalte, wie zum Beispiel Bestellungen oder Anfragen, die Sie an mich als Seitenbetreiber 
                 senden, eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie 
-                daran, dass die Adresszeile des Browsers von "http://" auf "https://" wechselt und an 
+                daran, dass die Adresszeile des Browsers von &quot;http://&quot; auf &quot;https://&quot; wechselt und an 
                 dem Schloss-Symbol in Ihrer Browserzeile.
               </p>
               <p className="text-gray-700">
