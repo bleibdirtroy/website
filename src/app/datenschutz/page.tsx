@@ -16,21 +16,21 @@ export const metadata: Metadata = {
 const Datenschutz = () => {
   return (
     <div className="dottedBackground">
-      <div className="min-h-screen py-16 px-4">
+      <div className="min-h-screen py-16 px-4 md:py-20 md:px-6">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-white/80 backdrop-blur-sm rounded-lg shadow-lg p-8 mb-8">
-            <h1 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+          <div className="bg-white/90 backdrop-blur-sm rounded-xl shadow-xl p-6 mb-8 md:p-8">
+            <h1 className="text-3xl font-bold text-center mb-8 text-primary-900 md:text-4xl md:mb-12">
               Datenschutzerklärung
             </h1>
           </div>
 
-          <div className="bg-white/80 backdrop-blur-sm rounded-lg shadow-lg p-8 mb-8 space-y-8">
+          <div className="bg-white/90 backdrop-blur-sm rounded-xl shadow-xl p-6 mb-8 space-y-6 md:p-8 md:space-y-8">
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">1. Datenschutz auf einen Blick</h2>
-              <div className="space-y-6">
+              <h2 className="text-xl font-semibold mb-4 text-primary-900 border-l-4 border-accent-500 pl-4 md:text-2xl">1. Datenschutz auf einen Blick</h2>
+              <div className="space-y-4 md:space-y-6">
                 <div>
-                  <h3 className="text-lg font-medium mb-3 text-gray-800">Allgemeine Hinweise</h3>
-                  <p className="text-gray-700">
+                  <h3 className="text-base font-medium mb-3 text-primary-800 md:text-lg">Allgemeine Hinweise</h3>
+                  <p className="text-primary-700 leading-relaxed">
                     Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren 
                     personenbezogenen Daten passiert, wenn Sie meine Website besuchen. Personenbezogene 
                     Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. 
@@ -39,8 +39,8 @@ const Datenschutz = () => {
                 </div>
                 
                 <div>
-                  <h3 className="text-lg font-medium mb-3 text-gray-800">Datenerfassung auf dieser Website</h3>
-                  <p className="text-gray-700">
+                  <h3 className="text-base font-medium mb-3 text-primary-800 md:text-lg">Datenerfassung auf dieser Website</h3>
+                  <p className="text-primary-700 leading-relaxed">
                     Diese Website erfasst automatisch bestimmte Informationen durch Ihren Browser 
                     (Server-Log-Dateien) und nutzt ein selbst gehostetes Analytics-Tool (Rybbit) 
                     zur Analyse des Nutzerverhaltens. Es werden keine Cookies gesetzt und keine 
