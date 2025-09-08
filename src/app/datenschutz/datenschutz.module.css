@@ -13,7 +13,7 @@
 .title {
   font-size: 2rem;
   font-weight: 700;
-  color: #374151;
+  color: #0f172a;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -21,22 +21,22 @@
 .section {
   margin-bottom: 2rem;
   padding: 1.5rem;
-  background-color: #f9fafb;
+  background-color: #f8fafc;
   border-radius: 8px;
-  border-left: 4px solid orange;
+  border-left: 4px solid #f59e0b;
 }
 
 .section h2 {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #374151;
+  color: #0f172a;
   margin-bottom: 1rem;
 }
 
 .section h3 {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #4b5563;
+  color: #475569;
   margin-bottom: 0.75rem;
   margin-top: 1rem;
 }
