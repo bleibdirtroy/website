@@ -62,9 +62,6 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  verification: {
-    google: 'your-google-verification-code',
-  },
 };
 
 export default function RootLayout({
@@ -83,7 +80,7 @@ export default function RootLayout({
 
       </head>
       <body className={`${notoSans.variable} antialiased`}>
-        <CustomNavbar></CustomNavbar>
+        <CustomNavbar />
         <main className="pt-16">
           {children}
         </main>

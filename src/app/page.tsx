@@ -23,7 +23,7 @@ export default function Home() {
       />
       <div className="dottedBackground">
         <div id="home">
-          <Hero></Hero>
+          <Hero />
         </div>
         
         {/* Über mich Section */}

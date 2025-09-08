@@ -1,11 +1,5 @@
-import React from "react";
+import Projects from "../components/projects/projects";
 
-const Page = () => {
-  return (
-    <>
-      <p>hi</p>
-    </>
-  );
-};
-
-export default Page;
+export default function ProjectsPage() {
+  return <Projects />;
+}
