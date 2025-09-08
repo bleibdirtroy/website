@@ -250,6 +250,110 @@
             "label": "",
             "href": ""
           }
+        },
+        {
+          "id": "pmt1x3z4k9l2n8q5r7u6v0w1",
+          "visible": true,
+          "name": "Penetrationtest-Management-Tool",
+          "description": "Entwicklung bei link protect GmbH während Werkstudententätigkeit",
+          "date": "",
+          "summary": "<p>Ein vollständiges Management-Tool für Penetrationstests zur digitalen Organisation und Erstellung von Penetrationtest-Dokumenten. Das System ermöglicht benutzerfreundliche Berichtserstellung durch Integration von Markdown und LaTeX. Features umfassen Projektmanagement, automatisierte Berichtsgenerierung und Kollaborationswerkzeuge für Penetrationstester.</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "jwt9a2b3c4d5e6f7g8h9i0j1",
+          "visible": true,
+          "name": "IoT Management Plattform",
+          "description": "Bachelorarbeit an der TH Rosenheim",
+          "date": "",
+          "summary": "<p>Konzeption und Entwicklung einer umfassenden Internet-of-Things Management Plattform für Sensorknoten und intelligente Edge Devices. Die Plattform bietet zentrale Verwaltung, Real-time Monitoring, Device Configuration und Analytics. Implementierung mit modernen Web-Technologien und Edge Computing Prinzipien für skalierbare IoT-Infrastrukturen.</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "mta8b9c0d1e2f3g4h5i6j7k8",
+          "visible": true,
+          "name": "Mediaplayer Testsystem",
+          "description": "Masterarbeit an der Hochschule München",
+          "date": "",
+          "summary": "<p>Entwicklung eines umfangreichen Testsystems für Mediaplayer zur Analyse und Vergleich des Verhaltens verschiedener Player in kritischen Fehlerszenarien. Das System ermöglicht automatisierte Testläufe, Performance-Benchmarking und detaillierte Fehleranalyse. Implementierung mit CI/CD Integration für kontinuierliche Qualitätssicherung in Mediaplayer-Entwicklung.</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "qrs9t0u1v2w3x4y5z6a7b8c9",
+          "visible": true,
+          "name": "Oracle APEX Visualisierungstools",
+          "description": "Softwareprojekte bei Audi AG Praktikum",
+          "date": "",
+          "summary": "<p>Entwicklung mehrerer Softwareprojekte mit Oracle Application Express für interne Audi-Prozesse. Erstellung interaktiver Dashboards und Datenvisualisierungen mit SQL, PL/SQL, JavaScript, HTML und CSS. Implementierung einer neuen Visualisierungsmaske mit verbesserter Benutzerfreundlichkeit und automatisierten Reporting-Funktionen.</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "def0e1f2g3h4i5j6k7l8m9n0",
+          "visible": true,
+          "name": "Confluence Automatisierungstools",
+          "description": "Java-Entwicklung bei Extedo GmbH",
+          "date": "",
+          "summary": "<p>Entwicklung diverser Java-Applikationen zur Prozessautomatisierung in Confluence. Erstellung eines Blueprint-Systems für Change Control-Seiten und automatisiertes Customer Satisfaction Survey Email-Tool. Zusätzliche Entwicklung von Hilfsprogrammen für Report-Automatisierung und Workflow-Optimierung mit Atlassian SDK.</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "opq1r2s3t4u5v6w7x8y9z0a1",
+          "visible": true,
+          "name": "Flutter Enterprise App",
+          "description": "Mobile Anwendungsentwicklung bei econix GmbH",
+          "date": "",
+          "summary": "<p>Entwicklung einer skalierbaren Flutter-Anwendung für eine große Nutzerbasis mit plattformübergreifender Unterstützung. Implementierung komplexer Business Logic, Real-time Synchronisation und offline-fähiger Features. Integration von Backend-Services, Push-Notifications und Analytics für optimale User Experience in Unternehmensumgebung.</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "bcd2e3f4g5h6i7j8k9l0m1n2",
+          "visible": true,
+          "name": "CI/CD Pipeline Migration",
+          "description": "DevOps-Projekt bei TARA Systems GmbH",
+          "date": "",
+          "summary": "<p>Vollständige Migration der Versionskontrolle und Implementierung moderner CI/CD Pipelines mit Jenkins und GitLab. Planung und Umsetzung automatisierter Build-, Test- und Deployment-Prozesse. Integration von Qualitätssicherungstools, Code-Coverage-Analyse und automatisierte Dokumentationsgenerierung für verbesserte Entwicklungseffizienz.</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "uvw3x4y5z6a7b8c9d0e1f2g3",
+          "visible": true,
+          "name": "AI-Integration Platform",
+          "description": "KI-Implementierung bei TARA Systems GmbH",
+          "date": "",
+          "summary": "<p>Integration künstlicher Intelligenz-Lösungen wie OpenAI in bestehende Entwicklungsworkflows zur Steigerung von Verständnis und Effizienz. Entwicklung von AI-Assistenten für Code-Reviews, automatisierte Dokumentation und intelligente Fehleranalyse. Schulung und Implementierung für Entwicklerteams zur optimalen KI-Nutzung.</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
         }
       ]
     },
