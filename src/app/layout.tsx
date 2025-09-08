@@ -84,7 +84,9 @@ export default function RootLayout({
       </head>
       <body className={`${notoSans.variable} antialiased`}>
         <CustomNavbar></CustomNavbar>
-        {children}
+        <main className="pt-16">
+          {children}
+        </main>
         <Script
           src="https://rybbit.696887.xyz/api/script.js"
           data-site-id="1"
