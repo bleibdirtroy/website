@@ -37,12 +37,12 @@ const Hero = () => {
           <Image
             src="/me.jpg"
             alt="Adrian Germeck"
-            width={500}
-            height={500}
+            width={400}
+            height={600}
             quality={85}
             placeholder="blur"
             blurDataURL="/me_blur.webp"
-            className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 xl:w-[28rem] xl:h-[28rem] object-cover border-8 md:border-[12px] lg:border-[15px] border-gray-500 shadow-[12px_12px_0_theme(colors.orange.500)] md:shadow-[16px_16px_0_theme(colors.orange.500)] lg:shadow-[20px_20px_0_theme(colors.orange.500)]"
+            className="w-64 h-96 sm:w-72 sm:h-[27rem] md:w-80 md:h-[30rem] lg:w-96 lg:h-[36rem] xl:w-[26rem] xl:h-[39rem] object-cover border-8 md:border-[12px] lg:border-[15px] border-gray-500 shadow-[12px_12px_0_theme(colors.orange.500)] md:shadow-[16px_16px_0_theme(colors.orange.500)] lg:shadow-[20px_20px_0_theme(colors.orange.500)]"
           />
         </div>
         
