@@ -1,192 +1,263 @@
 const Projects = () => {
   return (
     <section id="projects" className="px-4 py-16 max-w-7xl mx-auto">
-      <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Projekte</h2>
+      <div className="text-center mb-16">
+        <h2 className="text-4xl font-bold mb-4 text-gray-900">Meine Projekte</h2>
+        <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          Eine Auswahl meiner wichtigsten Projekte aus den Bereichen KI, Enterprise-Entwicklung, 
+          IoT und Data Analytics
+        </p>
+      </div>
       
-      {/* Mobile: Single column, Tablet: 2 columns, Desktop: 3+ columns */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6">
-        
-        {/* Innovation & KI Column */}
-        <div className="space-y-6">
-          <h3 className="text-xl font-bold text-gray-700 text-center pb-3 border-b-2 border-gray-200">
-            Innovation & KI
+      <div className="space-y-12">
+        {/* Featured Projects - Highlighted Section */}
+        <div className="mb-16">
+          <h3 className="text-2xl font-semibold mb-8 text-center text-gray-800">
+            ⭐ Highlight-Projekte
           </h3>
-          
-          {/* Allin.ai */}
-          <div className="bg-yellow-200 text-yellow-900 p-6 rounded-lg shadow-lg transform -rotate-1 hover:rotate-0 hover:scale-105 transition-all duration-300 min-h-[200px] relative">
-            <div className="absolute top-0 left-0 w-3 h-3 bg-yellow-300 transform rotate-45 -translate-x-1 -translate-y-1"></div>
-            <h4 className="text-white font-bold text-lg mb-3">Allin.ai - Poker KI System</h4>
-            <p className="text-white opacity-90 text-sm mb-4 leading-relaxed">
-              IoT-Projekt an der TH Rosenheim: Spielkarten werden zwischen zwei Pokerspielern fotografiert und durch Microsoft Custom Vision erkannt. 
-              Die KI berechnet kontinuierlich Gewinnwahrscheinlichkeiten und zeigt diese über eine Web-Oberfläche an.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">Microsoft Azure</span>
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">Custom Vision</span>
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">IoT</span>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            
+            {/* Allin.ai - Featured */}
+            <div className="group bg-gradient-to-br from-blue-500 to-purple-600 p-8 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center mr-4">
+                  <span className="text-2xl">🤖</span>
+                </div>
+                <div>
+                  <h4 className="text-xl font-bold text-white">Allin.ai - Poker KI System</h4>
+                  <span className="text-blue-200 text-sm">TH Rosenheim • IoT & Machine Learning</span>
+                </div>
+              </div>
+              <p className="text-white/90 mb-6 leading-relaxed">
+                Innovatives IoT-System mit Computer Vision: Spielkarten werden fotografiert, durch Microsoft Custom Vision erkannt 
+                und KI berechnet kontinuierlich Gewinnwahrscheinlichkeiten für Pokerspieler in Echtzeit.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="bg-white/20 text-white px-3 py-1 rounded-full text-sm">Microsoft Azure</span>
+                <span className="bg-white/20 text-white px-3 py-1 rounded-full text-sm">Custom Vision</span>
+                <span className="bg-white/20 text-white px-3 py-1 rounded-full text-sm">IoT</span>
+                <span className="bg-white/20 text-white px-3 py-1 rounded-full text-sm">Real-time AI</span>
+              </div>
+              <div className="text-white/80 text-sm">
+                📊 Echtzeitanalyse • 🎯 Computer Vision • ☁️ Cloud Integration
+              </div>
             </div>
-          </div>
-          
-          {/* AI-Integration Platform */}
-          <div className="bg-blue-500 text-blue-900 p-6 rounded-lg shadow-lg transform rotate-1 hover:rotate-0 hover:scale-105 transition-all duration-300 min-h-[200px] relative">
-            <div className="absolute top-0 left-0 w-3 h-3 bg-blue-600 transform rotate-45 -translate-x-1 -translate-y-1"></div>
-            <h4 className="text-white font-bold text-lg mb-3">AI-Integration Platform</h4>
-            <p className="text-white opacity-90 text-sm mb-4 leading-relaxed">
-              Integration von KI-Lösungen wie OpenAI in Entwicklungsworkflows bei TARA Systems. 
-              Entwicklung von AI-Assistenten für Code-Reviews, automatisierte Dokumentation und intelligente Fehleranalyse.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">OpenAI</span>
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">Code Review</span>
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">Automation</span>
+
+            {/* Scan2Cook - Featured */}
+            <div className="group bg-gradient-to-br from-green-500 to-teal-600 p-8 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center mr-4">
+                  <span className="text-2xl">📱</span>
+                </div>
+                <div>
+                  <h4 className="text-xl font-bold text-white">Scan2Cook - BSH Hausgeräte</h4>
+                  <span className="text-green-200 text-sm">Industrieprojekt • Smart Kitchen</span>
+                </div>
+              </div>
+              <p className="text-white/90 mb-6 leading-relaxed">
+                Praxisnahe Mobile App für BSH: OCR-Technologie scannt Zubereitungshinweise auf Verpackungen 
+                und konfiguriert automatisch Home Connect Backöfen - Smart Kitchen der Zukunft.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="bg-white/20 text-white px-3 py-1 rounded-full text-sm">OCR</span>
+                <span className="bg-white/20 text-white px-3 py-1 rounded-full text-sm">Smart Kitchen</span>
+                <span className="bg-white/20 text-white px-3 py-1 rounded-full text-sm">Mobile App</span>
+                <span className="bg-white/20 text-white px-3 py-1 rounded-full text-sm">IoT Integration</span>
+              </div>
+              <div className="text-white/80 text-sm">
+                🏭 Industriepartner • 📸 Text Recognition • 🏠 Home Automation
+              </div>
             </div>
           </div>
         </div>
-        
-        {/* Enterprise & Mobile Column */}
-        <div className="space-y-6">
-          <h3 className="text-xl font-bold text-gray-700 text-center pb-3 border-b-2 border-gray-200">
-            Enterprise & Mobile
+
+        {/* Current Work */}
+        <div className="mb-16">
+          <h3 className="text-2xl font-semibold mb-8 text-center text-gray-800">
+            💼 Aktuelle Tätigkeit
           </h3>
-          
-          {/* Scan2Cook */}
-          <div className="bg-green-400 text-green-900 p-6 rounded-lg shadow-lg transform -rotate-1 hover:rotate-0 hover:scale-105 transition-all duration-300 min-h-[200px] relative">
-            <div className="absolute top-0 left-0 w-3 h-3 bg-green-500 transform rotate-45 -translate-x-1 -translate-y-1"></div>
-            <h4 className="text-white font-bold text-lg mb-3">Scan2Cook - BSH Hausgeräte</h4>
-            <p className="text-white opacity-90 text-sm mb-4 leading-relaxed">
-              Industrieprojekt mit BSH: Smartphone-App nutzt OCR-Technologie zum Scannen von Zubereitungshinweisen 
-              und konfiguriert automatisch Home Connect Backöfen.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">OCR</span>
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">Smart Kitchen</span>
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">Mobile App</span>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            
+            {/* AI Integration */}
+            <div className="bg-white border-l-4 border-blue-500 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+              <div className="flex items-start mb-4">
+                <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mr-4 mt-1">
+                  <span className="text-blue-600">🧠</span>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-gray-900">KI-Integration bei TARA Systems</h4>
+                  <span className="text-blue-600 text-sm font-medium">Software Engineer</span>
+                </div>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Integration von OpenAI und anderen KI-Tools in Entwicklungsworkflows. Automatisierte Code-Reviews, 
+                intelligente Dokumentation und KI-gestützte Fehleranalyse.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <span className="bg-blue-50 text-blue-700 px-2 py-1 rounded text-sm">OpenAI API</span>
+                <span className="bg-blue-50 text-blue-700 px-2 py-1 rounded text-sm">DevOps</span>
+                <span className="bg-blue-50 text-blue-700 px-2 py-1 rounded text-sm">Automation</span>
+              </div>
             </div>
-          </div>
-          
-          {/* Flutter Enterprise App */}
-          <div className="bg-orange-400 text-orange-900 p-6 rounded-lg shadow-lg transform rotate-1 hover:rotate-0 hover:scale-105 transition-all duration-300 min-h-[200px] relative">
-            <div className="absolute top-0 left-0 w-3 h-3 bg-orange-500 transform rotate-45 -translate-x-1 -translate-y-1"></div>
-            <h4 className="text-white font-bold text-lg mb-3">Flutter Enterprise App</h4>
-            <p className="text-white opacity-90 text-sm mb-4 leading-relaxed">
-              Skalierbare Flutter-Anwendung für große Nutzerbasis bei econix GmbH. 
-              Plattformübergreifende App mit Real-time Synchronisation und offline-fähigen Features.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">Flutter</span>
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">Cross-Platform</span>
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">Enterprise</span>
+
+            {/* Flutter Development */}
+            <div className="bg-white border-l-4 border-cyan-500 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+              <div className="flex items-start mb-4">
+                <div className="w-10 h-10 bg-cyan-100 rounded-lg flex items-center justify-center mr-4 mt-1">
+                  <span className="text-cyan-600">📱</span>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-gray-900">Flutter Enterprise App</h4>
+                  <span className="text-cyan-600 text-sm font-medium">Team Lead & Developer</span>
+                </div>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Leitung eines kleinen Teams zur Entwicklung einer skalierbaren Flutter-Anwendung 
+                mit Real-time Features und offline-fähigen Komponenten.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <span className="bg-cyan-50 text-cyan-700 px-2 py-1 rounded text-sm">Flutter</span>
+                <span className="bg-cyan-50 text-cyan-700 px-2 py-1 rounded text-sm">Cross-Platform</span>
+                <span className="bg-cyan-50 text-cyan-700 px-2 py-1 rounded text-sm">Team Lead</span>
+              </div>
             </div>
           </div>
         </div>
-        
-        {/* Data & Analytics Column */}
-        <div className="space-y-6">
-          <h3 className="text-xl font-bold text-gray-700 text-center pb-3 border-b-2 border-gray-200">
-            Data & Analytics
+
+        {/* Academic Projects */}
+        <div className="mb-16">
+          <h3 className="text-2xl font-semibold mb-8 text-center text-gray-800">
+            🎓 Akademische Projekte
           </h3>
-          
-          {/* Predictive Maintenance */}
-          <div className="bg-purple-500 text-purple-900 p-6 rounded-lg shadow-lg transform -rotate-1 hover:rotate-0 hover:scale-105 transition-all duration-300 min-h-[200px] relative">
-            <div className="absolute top-0 left-0 w-3 h-3 bg-purple-600 transform rotate-45 -translate-x-1 -translate-y-1"></div>
-            <h4 className="text-white font-bold text-lg mb-3">Predictive Maintenance System</h4>
-            <p className="text-white opacity-90 text-sm mb-4 leading-relaxed">
-              Masterprojekt: Analyse großer Datensätze zur Erkennung potenzieller Geräteausfälle in Rechenzentren. 
-              Machine Learning-Clustering mit Python Keras für präzise Ausfallprognosen.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">Python</span>
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">Keras</span>
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">ML</span>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            {/* Predictive Maintenance */}
+            <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border-t-4 border-purple-500">
+              <div className="flex items-center mb-4">
+                <div className="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center mr-3">
+                  <span className="text-purple-600 text-sm">📊</span>
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Predictive Maintenance</h4>
+              </div>
+              <p className="text-sm text-purple-600 mb-2 font-medium">Masterprojekt</p>
+              <p className="text-gray-600 text-sm mb-4">
+                Machine Learning System zur Vorhersage von Geräteausfällen in Rechenzentren 
+                durch Analyse großer Datensätze mit Python und Keras.
+              </p>
+              <div className="flex flex-wrap gap-1">
+                <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Python</span>
+                <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Keras</span>
+                <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">ML</span>
+              </div>
             </div>
-          </div>
-          
-          {/* Mediaplayer Testsystem */}
-          <div className="bg-pink-500 text-pink-900 p-6 rounded-lg shadow-lg transform rotate-1 hover:rotate-0 hover:scale-105 transition-all duration-300 min-h-[200px] relative">
-            <div className="absolute top-0 left-0 w-3 h-3 bg-pink-600 transform rotate-45 -translate-x-1 -translate-y-1"></div>
-            <h4 className="text-white font-bold text-lg mb-3">Mediaplayer Testsystem</h4>
-            <p className="text-white opacity-90 text-sm mb-4 leading-relaxed">
-              Masterarbeit: Entwicklung eines Testsystems für Mediaplayer zur Analyse des Verhaltens 
-              verschiedener Player in kritischen Fehlerszenarien mit automatisierten Testläufen.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">Testing</span>
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">Automation</span>
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">Performance</span>
+
+            {/* Mediaplayer Testing */}
+            <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border-t-4 border-pink-500">
+              <div className="flex items-center mb-4">
+                <div className="w-8 h-8 bg-pink-100 rounded-lg flex items-center justify-center mr-3">
+                  <span className="text-pink-600 text-sm">🧪</span>
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Mediaplayer Testsystem</h4>
+              </div>
+              <p className="text-sm text-pink-600 mb-2 font-medium">Masterarbeit</p>
+              <p className="text-gray-600 text-sm mb-4">
+                Automatisiertes Testsystem zur Analyse des Verhaltens verschiedener 
+                Mediaplayer in kritischen Fehlerszenarien.
+              </p>
+              <div className="flex flex-wrap gap-1">
+                <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Testing</span>
+                <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Automation</span>
+                <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Performance</span>
+              </div>
+            </div>
+
+            {/* IoT Management */}
+            <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border-t-4 border-indigo-500">
+              <div className="flex items-center mb-4">
+                <div className="w-8 h-8 bg-indigo-100 rounded-lg flex items-center justify-center mr-3">
+                  <span className="text-indigo-600 text-sm">🌐</span>
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">IoT Management Platform</h4>
+              </div>
+              <p className="text-sm text-indigo-600 mb-2 font-medium">Bachelorarbeit</p>
+              <p className="text-gray-600 text-sm mb-4">
+                Zentrale Verwaltungsplattform für IoT-Geräte mit Real-time Monitoring, 
+                Edge Computing und Analytics-Dashboard.
+              </p>
+              <div className="flex flex-wrap gap-1">
+                <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">IoT</span>
+                <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Edge Computing</span>
+                <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Real-time</span>
+              </div>
             </div>
           </div>
         </div>
-        
-        {/* DevOps & IoT Column */}
-        <div className="space-y-6">
-          <h3 className="text-xl font-bold text-gray-700 text-center pb-3 border-b-2 border-gray-200">
-            DevOps & IoT
+
+        {/* Industry Experience */}
+        <div>
+          <h3 className="text-2xl font-semibold mb-8 text-center text-gray-800">
+            🏢 Branchenerfahrung
           </h3>
-          
-          {/* CI/CD Pipeline */}
-          <div className="bg-teal-500 text-teal-900 p-6 rounded-lg shadow-lg transform -rotate-1 hover:rotate-0 hover:scale-105 transition-all duration-300 min-h-[200px] relative">
-            <div className="absolute top-0 left-0 w-3 h-3 bg-teal-600 transform rotate-45 -translate-x-1 -translate-y-1"></div>
-            <h4 className="text-white font-bold text-lg mb-3">CI/CD Pipeline Migration</h4>
-            <p className="text-white opacity-90 text-sm mb-4 leading-relaxed">
-              Migration der Versionskontrolle und Implementierung moderner CI/CD Pipelines mit Jenkins und GitLab 
-              bei TARA Systems für verbesserte Entwicklungseffizienz.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">Jenkins</span>
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">GitLab</span>
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">DevOps</span>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            {/* CI/CD Migration */}
+            <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border-t-4 border-teal-500">
+              <div className="flex items-center mb-4">
+                <div className="w-8 h-8 bg-teal-100 rounded-lg flex items-center justify-center mr-3">
+                  <span className="text-teal-600 text-sm">🔄</span>
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">CI/CD Pipeline Migration</h4>
+              </div>
+              <p className="text-sm text-teal-600 mb-2 font-medium">TARA Systems</p>
+              <p className="text-gray-600 text-sm mb-4">
+                Modernisierung der Versionskontrolle und Implementierung effizienter 
+                CI/CD Pipelines mit Jenkins und GitLab.
+              </p>
+              <div className="flex flex-wrap gap-1">
+                <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Jenkins</span>
+                <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">GitLab</span>
+                <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">DevOps</span>
+              </div>
             </div>
-          </div>
-          
-          {/* IoT Management */}
-          <div className="bg-indigo-500 text-indigo-900 p-6 rounded-lg shadow-lg transform rotate-1 hover:rotate-0 hover:scale-105 transition-all duration-300 min-h-[200px] relative">
-            <div className="absolute top-0 left-0 w-3 h-3 bg-indigo-600 transform rotate-45 -translate-x-1 -translate-y-1"></div>
-            <h4 className="text-white font-bold text-lg mb-3">IoT Management Plattform</h4>
-            <p className="text-white opacity-90 text-sm mb-4 leading-relaxed">
-              Bachelorarbeit: Umfassende IoT Management Plattform für Sensorknoten und Edge Devices 
-              mit zentraler Verwaltung, Real-time Monitoring und Analytics.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">IoT</span>
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">Edge Computing</span>
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">Real-time</span>
+
+            {/* Security Tools */}
+            <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border-t-4 border-red-500">
+              <div className="flex items-center mb-4">
+                <div className="w-8 h-8 bg-red-100 rounded-lg flex items-center justify-center mr-3">
+                  <span className="text-red-600 text-sm">🔒</span>
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Penetrationtest-Tool</h4>
+              </div>
+              <p className="text-sm text-red-600 mb-2 font-medium">link protect GmbH</p>
+              <p className="text-gray-600 text-sm mb-4">
+                Management-Tool für Penetrationstests mit digitaler Organisation 
+                und automatisierter Dokumentenerstellung.
+              </p>
+              <div className="flex flex-wrap gap-1">
+                <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Security</span>
+                <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">LaTeX</span>
+                <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Automation</span>
+              </div>
             </div>
-          </div>
-        </div>
-        
-        {/* Enterprise Solutions Column */}
-        <div className="space-y-6">
-          <h3 className="text-xl font-bold text-gray-700 text-center pb-3 border-b-2 border-gray-200">
-            Enterprise Solutions
-          </h3>
-          
-          {/* Penetrationtest Tool */}
-          <div className="bg-red-500 text-red-900 p-6 rounded-lg shadow-lg transform -rotate-1 hover:rotate-0 hover:scale-105 transition-all duration-300 min-h-[200px] relative">
-            <div className="absolute top-0 left-0 w-3 h-3 bg-red-600 transform rotate-45 -translate-x-1 -translate-y-1"></div>
-            <h4 className="text-white font-bold text-lg mb-3">Penetrationtest-Tool</h4>
-            <p className="text-white opacity-90 text-sm mb-4 leading-relaxed">
-              Management-Tool für Penetrationstests bei link protect GmbH. 
-              Digitale Organisation und Erstellung von Dokumenten mit Markdown und LaTeX Integration.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">Security</span>
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">LaTeX</span>
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">Markdown</span>
-            </div>
-          </div>
-          
-          {/* Oracle APEX Tools */}
-          <div className="bg-cyan-500 text-cyan-900 p-6 rounded-lg shadow-lg transform rotate-1 hover:rotate-0 hover:scale-105 transition-all duration-300 min-h-[200px] relative">
-            <div className="absolute top-0 left-0 w-3 h-3 bg-cyan-600 transform rotate-45 -translate-x-1 -translate-y-1"></div>
-            <h4 className="text-white font-bold text-lg mb-3">Oracle APEX Tools</h4>
-            <p className="text-white opacity-90 text-sm mb-4 leading-relaxed">
-              Audi AG Praktikum: Entwicklung mehrerer Oracle APEX Projekte für interne Prozesse. 
-              Interaktive Dashboards und verbesserte Visualisierungsmasken mit modernen Web-Technologien.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">Oracle APEX</span>
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">SQL</span>
-              <span className="bg-white/20 text-white px-2 py-1 rounded-full text-xs border border-white/50">Dashboards</span>
+
+            {/* Oracle APEX */}
+            <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border-t-4 border-orange-500">
+              <div className="flex items-center mb-4">
+                <div className="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center mr-3">
+                  <span className="text-orange-600 text-sm">📈</span>
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Oracle APEX Dashboards</h4>
+              </div>
+              <p className="text-sm text-orange-600 mb-2 font-medium">Audi AG Praktikum</p>
+              <p className="text-gray-600 text-sm mb-4">
+                Entwicklung interaktiver Dashboards und Visualisierungstools 
+                für interne Unternehmensprozesse.
+              </p>
+              <div className="flex flex-wrap gap-1">
+                <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Oracle APEX</span>
+                <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">SQL</span>
+                <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Dashboards</span>
+              </div>
             </div>
           </div>
         </div>
